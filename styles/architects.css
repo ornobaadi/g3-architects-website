@@ -6,3 +6,48 @@
     font-weight: 400;
     font-style: normal;
   }
+
+
+  /* Shared Styles */
+
+  .display-flex{
+        display: flex;
+  }
+
+  /* dark-02 */
+  .text-grey{
+    color: #424242;
+  }
+
+  /* dark-03 */
+  .text-light-grey{
+    color: #727272;
+  }
+
+  .bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+  }
+
+  /* Header Styles */
+
+  /* Navbar Related Styles */
+.navbar{
+    justify-content: space-between;
+    
+}
+
+  .nav-item{
+    list-style: none;
+    margin-right: 30px;
+  }
+
+  .nav-link{
+    text-decoration: none;
+    font-weight: 500;
+    color
+  }
+
+  .navbar, .banner{
+    max-width:  1440px;
+    margin: 0 auto;
+  }
