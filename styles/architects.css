@@ -79,7 +79,7 @@
     color:#424242;
   }
 
-  .navbar, .banner{
+  .navbar, .banner, .footer-text{
     max-width:  1440px;
     margin: 0 auto;
   }
@@ -214,6 +214,13 @@
     filter: grayscale(100);
   }
 
+  .footer-text{
+    background-color: bisque;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 100px;
+    padding: 30px;
+  }
 
   /* Responsive Media Query */
   @media screen and (max-width: 576px) {
